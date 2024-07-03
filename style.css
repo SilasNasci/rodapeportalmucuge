@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.rodape{
+    background-color: #7F4F24;
+    display: flex;
+    height: 50vh;
+    align-items: center;
+    gap: 3vw;
+}
+
+.rodape .portaltitulo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+} 
+
+.rodape .portaltitulo .titulo1{
+    margin-top: auto;
+    margin-left: 15vw;
+    color: #fff;
+    font-family: "Jolly Lodger", system-ui;
+    font-size: 60px;
+    text-align: justify;
+    
+}
+
+.rodape .nav{
+    display: flex;
+    align-items: center;
+    margin-left: 8vw;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 20px;
+    font-family: "Lato", sans-serif;
+}
+
+.rodape .nav .eventos{
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}/*animação eventos*/
+
+.rodape .nav .eventos:hover{
+    transform: scale(1.1);
+}/*animação eventos*/
+
+.rodape .titulo2{
+    color: #ffffff;
+}
+
+.rodape .redes{
+    display: flex;
+    margin-top: -2vh;
+    margin-left: 8vw;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    transition: 0.3s ease-in-out;
+    font-family: "Lato", sans-serif;
+}
+
+.rodape .redes .sociais{
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+    font-family: "Lato", sans-serif;
+}/*animação redes*/
+
+.rodape .redes .sociais:hover{
+    transform: scale(1.1);
+}/*animação redes*/
+
+.rodape .png1{
+    display: flex;
+    align-items: center;
+    width: 20%; 
+    height: 20%;
+    flex-direction: column;
+}
+
+.rodape .titulo3{
+    color: #fff;
+    font-family: "Lato", sans-serif;
+}
+
+.rodape .contatos{
+    display: flex;
+    align-items: center;
+    margin-left: 7vw;
+    flex-direction: column;
+    margin-top: -10vh;
+    gap: 10px;
+    font-family: "Lato", sans-serif;
+    transition: 0.3s ease-in-out;
+}
+
+.rodape .contatos .ctt{
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s ease-in-out
+}/*animação contatos*/
+
+.rodape .contatos .ctt:hover{
+    transform: scale(1.1);
+}/*animação contatos*/
+
+.rodape .png2{
+    display: flex;
+    align-items: center;
+    width: 20%; 
+    height: 20%;
+    flex-direction: column;
+}
